@@ -63,3 +63,22 @@ button:active {
 .operator-btn:active {
     background-color: hsl(35, 100%, 65%);
 }
+
+
+/* mobile responsive */
+@media only screen and (max-width: 440px) {
+
+    button {
+        width: 90px;
+        height: 90px;
+    }
+
+    #keys {
+        gap: 8px;
+        padding: 10px;
+    }
+
+    #display {
+        padding: 12px 0px;
+    }
+}
