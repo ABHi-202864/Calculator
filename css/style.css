@@ -66,19 +66,19 @@ button:active {
 
 
 /* mobile responsive */
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 400px) {
 
     #calculator {
         margin: 0px 20px;
     }
 
     button {
-        width: 80px;
-        height: 80px;
+        width: 75px;
+        height: 75px;
     }
 
     #keys {
-        gap: 8px;
+        gap: 7px;
         padding: 10px;
     }
 
