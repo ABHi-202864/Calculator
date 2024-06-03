@@ -68,9 +68,13 @@ button:active {
 /* mobile responsive */
 @media only screen and (max-width: 440px) {
 
+    #calculator {
+        margin: 0px 20px;
+    }
+
     button {
-        width: 90px;
-        height: 90px;
+        width: 85px;
+        height: 85px;
     }
 
     #keys {
