@@ -86,3 +86,16 @@ button:active {
         padding: 12px 0px;
     }
 }
+
+@media only screen and (max-width:331px) {
+
+    #display{
+        font-size: 4rem;
+    }
+
+    button {
+        width: 60px;
+        height: 60px;
+        font-size: 2.5rem;
+    }
+}
